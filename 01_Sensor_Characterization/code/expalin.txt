@@ -1,4 +1,0 @@
-python tactile_eval_explain.py --modality slow --num-classes 8 --length 3200 --train 70 --val 25 --test 25 --slow-dir slow --fast-dir fast --out-dir outputs --ckpt outputs/best_slow.pt --exp-n-samples 8 --exp-ig-steps 64 --exp-ig-baseline zero --exp-target pred --exp-th-ig 0.4 --exp-th-cam 0.6 --exp-abs-ig --exp-smooth 0 --exp-indices 12,25,88   --exp-no-highlight
-
-
-python tactile_eval_explain.py --modality slow --num-classes 8 --length 3200 --train 70 --val 25 --test 25 --slow-dir slow --fast-dir fast --out-dir outputs --ckpt outputs/best_slow.pt --exp-n-samples 30 --exp-ig-steps 64 --exp-ig-baseline zero --exp-target pred --exp-th-ig 0.4 --exp-th-cam 0.6 --exp-abs-ig --exp-smooth 0  --exp-no-highlight
