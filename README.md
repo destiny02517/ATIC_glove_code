@@ -1,2 +1,3 @@
-# ATIC_glove_code
-Code for data acquisition, signal processing, machine-learning analysis, and edge inference of the ATIC glove.
+# System requirements
+Matlab >= R2022a
+Python >= 3.8
