@@ -1,0 +1,4 @@
+python tactile_eval_tsne.py --modality fast --num-classes 10 --length 1500 --train 75 --val 25 --test 25 --slow-dir fast --out-dir outputs --seed 42 --ckpt outputs/best_fast.pt --feature-space logits --pca-pre 12 --pca-whiten --tsne-perp 12 --tsne-ee 60 --tsne-lr auto --tsne-metric euclidean --tsne-init pca --tsne-angle 0.01 --embed-w 8 --embed-h 10 --embed-aspect auto --font-family "Calibri" --font-size 20 --title-size 26 --label-size 20 --tick-size 12 --legend-size 16
+
+
+
